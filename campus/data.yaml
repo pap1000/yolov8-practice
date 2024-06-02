@@ -1,0 +1,13 @@
+train: C:\Users\peppa\PycharmProjects\machinelearning\campus\train\images
+val: C:\Users\peppa\PycharmProjects\machinelearning\campus\valid\images
+test: C:\Users\peppa\PycharmProjects\machinelearning\campus\test\images
+
+nc: 3
+names: ['car', 'human', 'streetlamp']
+
+roboflow:
+  workspace: bong-db2ea
+  project: campus-annep
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bong-db2ea/campus-annep/dataset/1
